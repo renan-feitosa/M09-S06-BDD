@@ -7,13 +7,12 @@
 
 - **Front-end**: 
     - Responsável pela interface do usuário. O usuário interage com a aplicação (web ou mobile), cria, atualiza ou finaliza tarefas.
-    - Ferramentas comuns para essa camada incluem React, Vue.js ou Angular (para web) e React Native ou Flutter (para mobile).
 - **Camada de Aplicação**:
     - Contém a lógica de negócios que gerencia as regras de manipulação de tarefas.
     - Processa as solicitações do usuário, realiza validações, aciona operações no banco de dados e interage com APIs externas, como Google Calendar e e-mail.
 - **Camada de Persistência**:
     - Banco de dados relacional ou NoSQL para armazenar dados de usuários, tarefas e status.
-    - Exemplos de banco de dados: PostgreSQL, MySQL, MongoDB.
+    - Utilizando PostgreSQL, MySQL ou MongoDB, por exemplo.
 
 ### **2. Módulos e Componentes**
 - **Autenticação de Usuário**:
